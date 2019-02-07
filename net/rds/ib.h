@@ -212,7 +212,6 @@ struct rds_ib_connection {
 
 	/* Endpoint role in connection */
 	bool			i_active_side;
-	atomic_t		i_cq_quiesce;
 
 	/* Send/Recv vectors */
 	int			i_scq_vector;
